@@ -12,4 +12,4 @@ kvs.pprint()
 ssc.start()
 ssc.awaitTermination()
 
-# spark-submit --jars /home/pratham/PersonalSpace/30-days-of-pyspark/7-Streaming/spark-streaming-kafka-0-8-assembly_2.11-2.4.7.jar /home/pratham/PersonalSpace/30-days-of-pyspark/7-Streaming/stream.py
+# spark-submit --jars /home/pratham/PersonalSpace/30-days-of-pyspark/7-Streaming/spark-streaming-kafka-0-8-assembly_2.11-2.4.7.jar --py-files /home/pratham/PersonalSpace/30-days-of-pyspark/7-Streaming/mongo_driver.py /home/pratham/PersonalSpace/30-days-of-pyspark/7-Streaming/stream_etl_mongo.py
